@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply h-full overflow-hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-bg {
+  background-image: url('/src/assets/hero-road.png');
+  background-position: 76px center;
+  background-size: 95% 100%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .hero-bg {
+    background-image: url('/src/assets/hero-road-mobile.png');
+    background-position: center;
+    background-size: cover;
+  }
+}
