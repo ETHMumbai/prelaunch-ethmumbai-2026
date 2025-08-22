@@ -16,16 +16,31 @@ export default function Website() {
       </div>
 
       {/* Main White Box */}
-      <div className="bg-white border-[6px] sm:border-[10px] md:border-[13px] rounded-[14px] border-black w-full max-w-[1003px] h-auto flex flex-col items-center justify-center gap-12 sm:gap-16 md:gap-[112px] mt-6 sm:mt-8 mb-18 sm:mb-8 p-6 sm:p-8">
+      <div
+        className="
+        bg-white border-[6px] sm:border-[10px] md:border-[13px] rounded-[14px] border-black 
+        w-full max-w-[1003px] h-auto 
+        flex flex-col items-center justify-center
+        gap-14 sm:gap-16 md:gap-[112px]   /* increased gap between title & socials on mobile */
+        mt-12 sm:mt-8 lg:mt-12
+        mb-12 sm:mb-8 
+        p-8 sm:p-10 md:p-14
+      "
+      >
         {/* ETHMumbai 2026 Title */}
         <img
           src={EthLogo}
           alt="ETHMumbai 2026"
-          className="w-[220px] sm:w-[320px] md:w-[460px] h-auto object-contain"
+          className="w-[240px] sm:w-[320px] md:w-[460px] h-auto object-contain"
         />
 
         {/* Social Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-[20px] md:gap-[28px]">
+        <div
+          className="
+          flex flex-col sm:flex-row 
+          gap-3 sm:gap-[20px] md:gap-[28px]   /* tighter vertical gap on mobile, normal on bigger screens */
+        "
+        >
           <a
             href="https://x.com/ethmumbai"
             className="flex justify-center items-center px-6 sm:px-8 md:px-[44px] py-3 sm:py-4 gap-2 sm:gap-[14px] bg-black rounded-[32px] font-londrina text-white text-lg sm:text-2xl md:text-[32px] leading-[0.8] w-full sm:w-auto"
