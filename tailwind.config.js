@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -9,6 +9,9 @@ module.exports = {
       backgroundImage: {
         'hero-desktop': "url('/assets/bg-desktop.png')",
         'hero-mobile': "url('/assets/bg-mobile.png')",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
