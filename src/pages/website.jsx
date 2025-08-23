@@ -48,7 +48,7 @@ export default function Website() {
               X (Twitter)
             </a>
             <a
-              href="https://farcaster.xyz/~/channel/ethmumbai"
+              href="https://farcaster.xyz/ethmumbai"
               className="flex justify-center items-center px-6 sm:px-8 md:px-[44px] py-3 sm:py-4 gap-2 sm:gap-[14px] bg-black rounded-[32px] font-londrina text-white text-lg sm:text-2xl md:text-[32px] leading-[0.8] w-full sm:w-auto"
             >
               Farcaster
