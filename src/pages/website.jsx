@@ -7,7 +7,7 @@ export default function Website() {
     <div className="min-h-screen w-full bg-[#F22B37] hero-bg flex flex-col items-center px-4">
       {/* 2024 Archive Website */}
       <div className="bg-black inline-flex items-center gap-x-4 sm:gap-x-6 md:gap-x-10 rounded-[23px] px-4 sm:px-6 py-2 sm:py-3 font-poppins cursor-pointer hover:scale-105 transition-transform mt-6 sm:mt-10">
-        <a href="https://ethmumbai.in">
+        <a href="https://2024.ethmumbai.in">
           <span className="text-white font-medium text-base sm:text-lg md:text-xl">
             Visit ETHMumbai 2024
           </span>
